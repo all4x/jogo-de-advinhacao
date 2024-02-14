@@ -3,12 +3,11 @@
     "beforeDevCommand": "bun run dev",
     "beforeBuildCommand": "bun run build",
     "devPath": "http://localhost:1420",
-    "distDir": "../dist",
-    "build.withGlobalTauri": true
+    "distDir": "../dist"
   },
   "package": {
-    "productName": "desktop-app",
-    "version": "0.0.0"
+    "productName": "Jogo de advinhação",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -22,7 +21,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "desktop-app",
+        "title": "Jogo de advinhação",
         "width": 400,
         "height": 200
       }
